@@ -18,7 +18,6 @@ const {MobileAppBridge} = NativeModules;
 
 
 function App() {
-
   const [greet, setGreet] = useState('');
 
   useEffect(() => {
